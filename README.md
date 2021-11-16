@@ -1,5 +1,8 @@
 # React
 - [Conceitos Iniciais](#conceitos)
+- [Instalação](#instalacao)
+- [JSX](#jsx)
+- [Contador](#contador)
 
 ## <a name="conceitos"></a> Conceitos Iniciais
 - React é uma bibloteca JavaScript usada para construir interfaces (UI).
@@ -12,8 +15,8 @@
 #### Renderização
 - No React, voce pode renderizar apenas parte da aplicacao. 
 
-### Instalação
-Node, VS Code, React Dev Tools
+## <a name="intalacao"></a> Instalação
+#### Node, VS Code, React Dev Tools
 - Para checar que instalou o Node (node -v)
 - Para criar o Create React App (npx create-react-app .)
 - npm install
@@ -32,6 +35,64 @@ Node, VS Code, React Dev Tools
 - Package-lock.json: tells the version of every file in node modules, automatically generated
 - Package.json: details of different applications and dependencies
 - README.md: information on how to run our application
+
+#### Deletar o que voce nao precisa
+- Public: mudar o title (index.html) e remover --> favicon, index.html (favicon, theme-color, manifest-json, comments), manifest.json
+- Src: index.js (index.css, serviceWorker, comments and serviceWorker), index.css, serviceWorker, App.js(index.css, serviceWorker, e tudo dentro do return - return null), app.css, app.test.js, logo
+
+## <a name="jsx"></a>JSX
+- Sintaxe que nos permite escrever HTML no Javascript
+- Como o retorno possibilita ser de vários elementos, usamos o parenteses ()
+```
+function App() {
+   return(
+      <h1>Hello World</h1>
+   )
+}
+```
+Se fosse no DOM, precisaríamos escrever:
+```
+const title = document.createElement('h1')
+title.innerText = 'Hello World'
+
+```
+O retorno precisa ser de uma única coisa. Entao voce pode envolver todos os elementos em uma <div>:
+```
+function App() {
+   return(
+      <div>
+        <h1>Hello World</h1>
+        <h3>Welcome to my page<h3>
+      </div>
+   )
+}
+```
+Ou usar os fragments (<> </> brackets vazios)
+```
+function App() {
+   return(
+      <>
+        <h1>Hello World</h1>
+        <h3>Welcome to my page<h3>
+      </>
+   )
+}
+```
+## <a name="contador"></a>Contador
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
