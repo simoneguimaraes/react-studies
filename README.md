@@ -4,7 +4,9 @@
 - [JSX](#jsx)
 - [Contador](#contador)
 
-Referências: [MDN Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Introduction)
+Referências: 
+- [MDN Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Introduction)
+- [Geekhunter](https://blog.geekhunter.com.br/como-aprender-react/)
 
 ## <a name="conceitos"></a> Conceitos Iniciais
 - React é uma bibloteca JavaScript usada para construir interfaces (UI).
