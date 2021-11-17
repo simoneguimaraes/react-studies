@@ -79,6 +79,18 @@ function App() {
 }
 ```
 ## <a name="contador"></a>Contador
+```
+function App() {
+   return(
+      <>
+        <button>-</button>
+        <span>0</span>
+        <button>+</button>
+      </>
+   )
+}
+```
+Class Component
 
 
 
