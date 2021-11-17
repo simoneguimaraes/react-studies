@@ -56,7 +56,7 @@ const title = document.createElement('h1')
 title.innerText = 'Hello World'
 
 ```
-O retorno precisa ser de uma única coisa. Entao voce pode envolver todos os elementos em uma <div>:
+O retorno precisa ser de uma única coisa. Entao voce pode envolver todos os elementos em uma 'div':
 ```
 function App() {
    return(
