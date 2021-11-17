@@ -7,6 +7,7 @@
 Referências: 
 - [MDN Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Introduction)
 - [Geekhunter](https://blog.geekhunter.com.br/como-aprender-react/)
+- [JSX in Depth](https://reactjs.org/docs/jsx-in-depth.html)
 
 ## <a name="conceitos"></a> Conceitos Iniciais
 - React é uma bibloteca JavaScript usada para construir interfaces (UI).
