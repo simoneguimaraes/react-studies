@@ -4,6 +4,8 @@
 - [JSX](#jsx)
 - [Contador](#contador)
 
+Referências: [MDN Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Introduction)
+
 ## <a name="conceitos"></a> Conceitos Iniciais
 - React é uma bibloteca JavaScript usada para construir interfaces (UI).
 #### Vantagens
@@ -15,7 +17,7 @@
 #### Renderização
 - No React, voce pode renderizar apenas parte da aplicacao. 
 
-## <a name="intalacao"></a> Instalação
+## <a name="instalacao"></a> Instalação
 #### Node, VS Code, React Dev Tools
 - Para checar que instalou o Node (node -v)
 - Para criar o Create React App (npx create-react-app .)
