@@ -96,12 +96,7 @@ function App() {
 }
 ```
 Class Component
-
-
-
-
-
-
+//
 
 
 
