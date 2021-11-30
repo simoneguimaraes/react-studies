@@ -19,7 +19,7 @@ Referências:
 - Fica mais fácil e rápido para desenvolver a aplicação, porque se voce quiser mudar a cor do botão na pagina de envio de produto, por exemplo, voce pode fazer isso facilmente mudando essa informacao no componente, que vai se refletir no restante da aplicacao.
 #### Renderização
 - No React, voce pode renderizar apenas parte da aplicacao. 
--
+
 ## <a name="instalacao"></a> Instalação
 #### Node, VS Code, React Dev Tools
 - Para checar que instalou o Node (node -v)
